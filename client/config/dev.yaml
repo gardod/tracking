@@ -1,0 +1,3 @@
+"message_broker":
+    "host": "nats"
+    "port": 4222
