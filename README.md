@@ -42,7 +42,7 @@ curl --request POST 'service.lvh.me' --header 'Content-Type: application/json' -
 
 For ease of use CLI client is built inside a sleeping container. Once you connect to it, it's in current working dir.
 ```bash
-docker exec -it tracking-demo_client_1 sh
+docker exec -it tracking_client_1 sh
 ./client --help
 ```
 
